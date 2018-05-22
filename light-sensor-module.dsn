@@ -1,0 +1,338 @@
+(pcb "\\cued-fs\users\general\je369\windows-home\Documents\TechForPoorestBillion\Light Sensing Module\light-sensor-module.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.1-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  148590 -123190  111760 -123190  111760 -93980  148590 -93980
+            148590 -123190  148590 -123190)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Capacitors_SMD:C_0805_HandSoldering
+      (place C1 142260 -114300 front 0 (PN 10uF))
+      (place C2 133350 -110490 front 0 (PN 100nF))
+      (place C3 123190 -97790 front 90 (PN 4.7uF))
+      (place C4 125730 -97790 front 90 (PN 4.7uF))
+      (place C5 128270 -97790 front 90 (PN 4.7uF))
+      (place C7 133330 -114300 front 0 (PN 100nF))
+    )
+    (component ValveTeam_Library:WURTH_INDUCTOR
+      (place L1 125730 -105410 front 90 (PN 3.3uH))
+    )
+    (component "Connectors_Molex:Molex_KK-6410-06_06x2.54mm_Straight"
+      (place P1 133350 -119380 front 0 (PN MOLEX_01X06))
+    )
+    (component Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm
+      (place P2 133350 -96520 front 90 (PN HEADER_01X06))
+    )
+    (component ValveTeam_Library:TE_TERM
+      (place P3 116840 -101600 front 270 (PN TERM_01X02))
+    )
+    (component Resistors_SMD:R_0805_HandSoldering
+      (place R1 142320 -101600 front 0 (PN 10R))
+      (place R2 142320 -104140 front 0 (PN 4.7k))
+      (place R3 142320 -106680 front 0 (PN 4.7k))
+      (place R4 142320 -109220 front 0 (PN 10k))
+      (place R5 142160 -111760 front 0 (PN 1k))
+    )
+    (component ValveTeam_Library:STR05
+      (place U1 120650 -115570 front 180 (PN STR05))
+    )
+    (component ValveTeam_Library:VEML6030
+      (place U2 134225 -101600 front 0 (PN VEML6030))
+    )
+    (component ValveTeam_Library:WSOF6
+      (place U3 134620 -106680 front 0 (PN BH1750))
+    )
+  )
+  (library
+    (image Capacitors_SMD:C_0805_HandSoldering
+      (outline (path signal 100  -1000 -620  -1000 620))
+      (outline (path signal 100  1000 -620  -1000 -620))
+      (outline (path signal 100  1000 620  1000 -620))
+      (outline (path signal 100  -1000 620  1000 620))
+      (outline (path signal 120  500 850  -500 850))
+      (outline (path signal 120  -500 -850  500 -850))
+      (outline (path signal 50  -2250 880  2250 880))
+      (outline (path signal 50  -2250 880  -2250 -870))
+      (outline (path signal 50  2250 -870  2250 880))
+      (outline (path signal 50  2250 -870  -2250 -870))
+      (pin Rect[T]Pad_1500x1250_um 1 -1250 0)
+      (pin Rect[T]Pad_1500x1250_um 2 1250 0)
+    )
+    (image ValveTeam_Library:WURTH_INDUCTOR
+      (pin Rect[T]Pad_5500x2150_um 1 0 1925)
+      (pin Rect[T]Pad_5500x2150_um 2 0 -1925)
+    )
+    (image "Connectors_Molex:Molex_KK-6410-06_06x2.54mm_Straight"
+      (outline (path signal 120  -1470 3120  -1470 -3080))
+      (outline (path signal 120  -1470 -3080  14170 -3080))
+      (outline (path signal 120  14170 -3080  14170 3120))
+      (outline (path signal 120  14170 3120  -1470 3120))
+      (outline (path signal 120  -1370 3020  -1370 -2980))
+      (outline (path signal 120  -1370 -2980  14070 -2980))
+      (outline (path signal 120  14070 -2980  14070 3020))
+      (outline (path signal 120  14070 3020  -1370 3020))
+      (outline (path signal 120  0 -2980  0 -1980))
+      (outline (path signal 120  0 -1980  12700 -1980))
+      (outline (path signal 120  12700 -1980  12700 -2980))
+      (outline (path signal 120  0 -1980  250 -1550))
+      (outline (path signal 120  250 -1550  12450 -1550))
+      (outline (path signal 120  12450 -1550  12700 -1980))
+      (outline (path signal 120  250 -2980  250 -1980))
+      (outline (path signal 120  12450 -2980  12450 -1980))
+      (outline (path signal 120  -800 3020  -800 2400))
+      (outline (path signal 120  -800 2400  800 2400))
+      (outline (path signal 120  800 2400  800 3020))
+      (outline (path signal 120  1740 3020  1740 2400))
+      (outline (path signal 120  1740 2400  3340 2400))
+      (outline (path signal 120  3340 2400  3340 3020))
+      (outline (path signal 120  4280 3020  4280 2400))
+      (outline (path signal 120  4280 2400  5880 2400))
+      (outline (path signal 120  5880 2400  5880 3020))
+      (outline (path signal 120  6820 3020  6820 2400))
+      (outline (path signal 120  6820 2400  8420 2400))
+      (outline (path signal 120  8420 2400  8420 3020))
+      (outline (path signal 120  9360 3020  9360 2400))
+      (outline (path signal 120  9360 2400  10960 2400))
+      (outline (path signal 120  10960 2400  10960 3020))
+      (outline (path signal 120  11900 3020  11900 2400))
+      (outline (path signal 120  11900 2400  13500 2400))
+      (outline (path signal 120  13500 2400  13500 3020))
+      (outline (path signal 50  -1900 -3500  -1900 3550))
+      (outline (path signal 50  -1900 3550  14600 3550))
+      (outline (path signal 50  14600 3550  14600 -3500))
+      (outline (path signal 50  14600 -3500  -1900 -3500))
+      (pin Rect[A]Pad_2000x2600_um 1 0 0)
+      (pin Oval[A]Pad_2000x2600_um 2 2540 0)
+      (pin Oval[A]Pad_2000x2600_um 3 5080 0)
+      (pin Oval[A]Pad_2000x2600_um 4 7620 0)
+      (pin Oval[A]Pad_2000x2600_um 5 10160 0)
+      (pin Oval[A]Pad_2000x2600_um 6 12700 0)
+    )
+    (image Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm
+      (outline (path signal 100  -635 1270  1270 1270))
+      (outline (path signal 100  1270 1270  1270 -13970))
+      (outline (path signal 100  1270 -13970  -1270 -13970))
+      (outline (path signal 100  -1270 -13970  -1270 635))
+      (outline (path signal 100  -1270 635  -635 1270))
+      (outline (path signal 120  -1330 -14030  1330 -14030))
+      (outline (path signal 120  -1330 -1270  -1330 -14030))
+      (outline (path signal 120  1330 -1270  1330 -14030))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 0  -1330 1330))
+      (outline (path signal 120  -1330 1330  0 1330))
+      (outline (path signal 50  -1800 1800  -1800 -14500))
+      (outline (path signal 50  -1800 -14500  1800 -14500))
+      (outline (path signal 50  1800 -14500  1800 1800))
+      (outline (path signal 50  1800 1800  -1800 1800))
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 6 0 -12700)
+    )
+    (image ValveTeam_Library:TE_TERM
+      (outline (path signal 150  -5000 4100  5000 4100))
+      (outline (path signal 150  5000 4100  5000 -4100))
+      (outline (path signal 150  -5000 -4100  5000 -4100))
+      (outline (path signal 150  -5000 4100  -5000 -4100))
+      (pin Round[A]Pad_1950_um 2 2500 0)
+      (pin Round[A]Pad_1950_um 1 -2500 0)
+    )
+    (image Resistors_SMD:R_0805_HandSoldering
+      (outline (path signal 100  -1000 -620  -1000 620))
+      (outline (path signal 100  1000 -620  -1000 -620))
+      (outline (path signal 100  1000 620  1000 -620))
+      (outline (path signal 100  -1000 620  1000 620))
+      (outline (path signal 120  600 -880  -600 -880))
+      (outline (path signal 120  -600 880  600 880))
+      (outline (path signal 50  -2350 900  2350 900))
+      (outline (path signal 50  -2350 900  -2350 -900))
+      (outline (path signal 50  2350 -900  2350 900))
+      (outline (path signal 50  2350 -900  -2350 -900))
+      (pin Rect[T]Pad_1500x1300_um 1 -1350 0)
+      (pin Rect[T]Pad_1500x1300_um 2 1350 0)
+    )
+    (image ValveTeam_Library:STR05
+      (outline (path signal 150  -5800 -3600  -5829.37 -3785.41  -5914.59 -3952.67  -6047.33 -4085.41
+            -6214.59 -4170.63  -6400 -4200  -6585.41 -4170.63  -6752.67 -4085.41
+            -6885.41 -3952.67  -6970.63 -3785.41  -7000 -3600  -6970.63 -3414.59
+            -6885.41 -3247.33  -6752.67 -3114.59  -6585.41 -3029.37  -6400 -3000
+            -6214.59 -3029.37  -6047.33 -3114.59  -5914.59 -3247.33  -5829.37 -3414.59))
+      (outline (path signal 150  7600 -4800  7600 4800))
+      (outline (path signal 150  -7600 4800  -7600 -4800))
+      (outline (path signal 150  -7620 4800  7620 4800))
+      (outline (path signal 150  7620 -4800  -7620 -4800))
+      (pin Rect[T]Pad_1200x2100_um VADJ 5080 5850)
+      (pin Rect[T]Pad_1200x2100_um GND 2540 5850)
+      (pin Rect[T]Pad_1200x2100_um REM -5080 5850)
+      (pin Rect[T]Pad_1200x2100_um GND@1 -2540 5850)
+      (pin Rect[T]Pad_1200x2100_um VO 5080 -5850)
+      (pin Rect[T]Pad_1200x2100_um VO@1 2540 -5850)
+      (pin Rect[T]Pad_1200x2100_um VI -5080 -5850)
+      (pin Rect[T]Pad_1200x2100_um VI@1 -2540 -5850)
+      (pin Rect[T]Pad_1200x2100_um GND@2 0 -5850)
+      (pin Rect[T]Pad_1200x2100_um GND@3 0 5850)
+    )
+    (image ValveTeam_Library:VEML6030
+      (outline (path signal 150  -976.393 1350  -987.337 1280.9  -1019.1 1218.57  -1068.57 1169.1
+            -1130.9 1137.34  -1200 1126.39  -1269.1 1137.34  -1331.43 1169.1
+            -1380.9 1218.57  -1412.66 1280.9  -1423.61 1350  -1412.66 1419.1
+            -1380.9 1481.43  -1331.43 1530.9  -1269.1 1562.66  -1200 1573.61
+            -1130.9 1562.66  -1068.57 1530.9  -1019.1 1481.43  -987.337 1419.1))
+      (outline (path signal 150  -1000 1000  1000 1000))
+      (outline (path signal 150  1000 1000  1000 -1000))
+      (outline (path signal 150  -1000 -1000  1000 -1000))
+      (outline (path signal 150  -1000 1000  -1000 -1000))
+      (pin Rect[T]Pad_550x300_um 1 -875 650)
+      (pin Rect[T]Pad_550x300_um 2 -875 0)
+      (pin Rect[T]Pad_550x300_um 3 -875 -650)
+      (pin Rect[T]Pad_550x300_um 4 875 -650)
+      (pin Rect[T]Pad_550x300_um 5 875 0)
+      (pin Rect[T]Pad_550x300_um 6 875 650)
+    )
+    (image ValveTeam_Library:WSOF6
+      (outline (path signal 150  -1445.05 1200  -1457.53 1121.22  -1493.74 1050.14  -1550.14 993.74
+            -1621.22 957.527  -1700 945.049  -1778.78 957.527  -1849.86 993.74
+            -1906.26 1050.14  -1942.47 1121.22  -1954.95 1200  -1942.47 1278.78
+            -1906.26 1349.86  -1849.86 1406.26  -1778.78 1442.47  -1700 1454.95
+            -1621.22 1442.47  -1550.14 1406.26  -1493.74 1349.86  -1457.53 1278.78))
+      (outline (path signal 150  -1300 900  1300 900))
+      (outline (path signal 150  1300 900  1300 -900))
+      (outline (path signal 150  -1300 -900  1300 -900))
+      (outline (path signal 150  -1300 900  -1300 -900))
+      (pin Rect[T]Pad_550x250_um 6 1375 500)
+      (pin Rect[T]Pad_550x250_um 1 -1375 500)
+      (pin Rect[T]Pad_550x250_um 2 -1375 0)
+      (pin Rect[T]Pad_550x250_um 3 -1375 -500)
+      (pin Rect[T]Pad_550x250_um 4 1375 -500)
+      (pin Rect[T]Pad_550x250_um 5 1375 0)
+    )
+    (padstack Round[A]Pad_1950_um
+      (shape (circle F.Cu 1950))
+      (shape (circle B.Cu 1950))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1700x1700_um
+      (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path B.Cu 1700  0 0  0 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_2000x2600_um
+      (shape (path F.Cu 2000  0 -300  0 300))
+      (shape (path B.Cu 2000  0 -300  0 300))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2000x2600_um
+      (shape (rect F.Cu -1000 -1300 1000 1300))
+      (shape (rect B.Cu -1000 -1300 1000 1300))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_550x250_um
+      (shape (rect F.Cu -275 -125 275 125))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_550x300_um
+      (shape (rect F.Cu -275 -150 275 150))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_5500x2150_um
+      (shape (rect F.Cu -2750 -1075 2750 1075))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200x2100_um
+      (shape (rect F.Cu -600 -1050 600 1050))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x1250_um
+      (shape (rect F.Cu -750 -625 750 625))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1500x1300_um
+      (shape (rect F.Cu -750 -650 750 650))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1700x1700_um
+      (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect B.Cu -850 -850 850 850))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net VCC+3
+      (pins C1-1 C2-1 P1-1 P2-1 R1-1 R2-1 R3-1 U2-6 U3-1 U3-2)
+    )
+    (net GNDREF
+      (pins C1-2 C2-2 C3-2 C4-2 C5-2 C7-2 P1-6 P2-6 P3-2 U1-GND U1-GND@1 U1-GND@2
+        U1-GND@3 U2-1 U2-4 U3-3)
+    )
+    (net VIN+12
+      (pins C3-1 C4-1 L1-1 P3-1)
+    )
+    (net "Net-(C5-Pad1)"
+      (pins C5-1 L1-2 U1-VI U1-VI@1)
+    )
+    (net DVI
+      (pins C7-1 P1-5 P2-5 R5-2 U3-5)
+    )
+    (net INT
+      (pins P1-2 P2-2 R4-2 U2-3)
+    )
+    (net SDA
+      (pins P1-3 P2-3 R3-2 U2-2 U3-4)
+    )
+    (net SCL
+      (pins P1-4 P2-4 R2-2 U2-5 U3-6)
+    )
+    (net VREG+3
+      (pins R1-2 U1-VO U1-VO@1)
+    )
+    (net VCC
+      (pins R4-1 R5-1)
+    )
+    (class kicad_default "" DVI GNDREF INT "Net-(C5-Pad1)" SCL SDA VCC VCC+3
+      VIN+12 VREG+3
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
