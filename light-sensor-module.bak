@@ -385,7 +385,7 @@ F 3 "" H 7600 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 7600 4300 1    60   Input ~ 0
-VCC
+VCC+3
 Wire Wire Line
 	7600 4450 7600 4300
 Text GLabel 8350 4900 0    60   Input ~ 0
@@ -402,7 +402,7 @@ F 3 "" H 8600 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8600 4300 1    60   Input ~ 0
-VCC
+VCC+3
 $Comp
 L C C7
 U 1 1 5B0420C7

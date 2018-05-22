@@ -1,4 +1,4 @@
-update=5/22/2018 12:00:54 PM
+update=Tuesday, 22 May 2018 'pmt' 23:05:28
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../Parts Library
+LibDir=/Users/joshua/Dropbox/Cambridge Coursework/Part IIA/GM2 Technology for Poorest Billion/KiCad Libraries/valveteam-library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
