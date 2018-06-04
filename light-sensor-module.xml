@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/tooyi/Dropbox/tfpb/lighting-module/light-sensor-module.sch</source>
+    <date>04/06/2018 09:53:13</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>light-sensor-module.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>VEML6030</value>
+      <footprint>ValveTeam_Library:VEML6030</footprint>
+      <libsource lib="light-sensor-module-cache" part="VEML6030"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03FB09</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>BH1750</value>
+      <footprint>ValveTeam_Library:WSOF6</footprint>
+      <libsource lib="light-sensor-module-cache" part="BH1750"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03FB7A</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03FD2D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03FF12</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B03FF67</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>STR05</value>
+      <footprint>ValveTeam_Library:STR05</footprint>
+      <libsource lib="light-sensor-module-cache" part="STR05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B04013D</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>3.3uH</value>
+      <footprint>ValveTeam_Library:WURTH_INDUCTOR</footprint>
+      <libsource lib="light-sensor-module-cache" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B04047D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0405B8</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0406A6</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B040718</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0413D3</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B04143F</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B041CDC</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0420C0</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0420C7</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>MOLEX_01X06</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-06_06x2.54mm_Straight</footprint>
+      <libsource lib="light-sensor-module-cache" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B042944</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>HEADER_01X06</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <libsource lib="light-sensor-module-cache" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B042C04</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>TERM_01X02</value>
+      <footprint>ValveTeam_Library:TE_TERM</footprint>
+      <libsource lib="light-sensor-module-cache" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0420AC</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <libsource lib="light-sensor-module-rescue" part="LED-RESCUE-light-sensor-module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B052CEB</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <libsource lib="light-sensor-module-rescue" part="LED-RESCUE-light-sensor-module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B052F29</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0542E3</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B054626</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <libsource lib="light-sensor-module-rescue" part="LED-RESCUE-light-sensor-module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0549B2</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B0549BA</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LEDs:LED_0805_HandSoldering</footprint>
+      <libsource lib="light-sensor-module-rescue" part="LED-RESCUE-light-sensor-module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B055050</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B055057</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="light-sensor-module-cache" part="BH1750">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BH1750</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="ADDR" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="SDA" type="output"/>
+        <pin num="5" name="DVI" type="input"/>
+        <pin num="6" name="SCL" type="output"/>
+        <pin num="8" name="SCL" type="output"/>
+        <pin num="9" name="DVI" type="input"/>
+        <pin num="10" name="Sd" type="input"/>
+        <pin num="11" name="ADDR" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="VCC" type="input"/>
+        <pin num="??" name="SDA" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="light-sensor-module-cache" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="light-sensor-module-cache" part="CONN_01X06">
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="light-sensor-module-cache" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="light-sensor-module-rescue" part="LED-RESCUE-light-sensor-module">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-light-sensor-module</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="light-sensor-module-cache" part="STR05">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STR05</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="input"/>
+        <pin num="VADJ" name="VADJ" type="input"/>
+        <pin num="VI" name="VI" type="input"/>
+        <pin num="VO" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="light-sensor-module-cache" part="VEML6030">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VEML6030</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="SDA" type="input"/>
+        <pin num="3" name="INT" type="input"/>
+        <pin num="4" name="ADDR" type="output"/>
+        <pin num="5" name="SCL" type="input"/>
+        <pin num="6" name="VDD" type="output"/>
+        <pin num="8" name="VDD" type="output"/>
+        <pin num="9" name="SCL" type="input"/>
+        <pin num="10" name="Sd" type="input"/>
+        <pin num="11" name="SDA" type="input"/>
+        <pin num="12" name="INT" type="input"/>
+        <pin num="13" name="GND" type="input"/>
+        <pin num="??" name="ADDR" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="light-sensor-module-cache">
+      <uri>C:\Users\tooyi\Dropbox\tfpb\lighting-module\light-sensor-module-cache.lib</uri>
+    </library>
+    <library logical="light-sensor-module-rescue">
+      <uri>C:\Users\tooyi\Dropbox\tfpb\lighting-module\light-sensor-module-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GNDREF">
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="GND"/>
+      <node ref="R7" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U2" pin="4"/>
+      <node ref="P2" pin="6"/>
+      <node ref="C7" pin="2"/>
+      <node ref="P1" pin="6"/>
+    </net>
+    <net code="2" name="VCC+3">
+      <node ref="R2" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="3" name="INT">
+      <node ref="U2" pin="3"/>
+      <node ref="P1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="4" name="SDA">
+      <node ref="P2" pin="3"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="5" name="SCL">
+      <node ref="U2" pin="5"/>
+      <node ref="P2" pin="4"/>
+      <node ref="R2" pin="2"/>
+      <node ref="P1" pin="4"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="6" name="DVI">
+      <node ref="U3" pin="5"/>
+      <node ref="P1" pin="5"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="7" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D4-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="9" name="VIN+12">
+      <node ref="L1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D2-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="12" name="Net-(U1-PadVADJ)">
+      <node ref="U1" pin="VADJ"/>
+    </net>
+    <net code="13" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="VI"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="14" name="VREG+3">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="VO"/>
+    </net>
+  </nets>
+</export>
